@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding: 0;
+}
+nav {
+    position: absolute;
+    top: 100px;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+
+.background {
+    height: 500px;
+    width: 100%;
+    background: blueviolet;
+}
+
+.below-back {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 280px;
+    width: 100%;
+    background: goldenrod;
+}
+
+.below-back > .first {
+    height: 280px;
+    background: red;
+}
+.below-back > .second {
+    height: 280px;
+    background: rgb(0, 255, 242);
+}
+.below-back > .third {
+    height: 280px;
+    background: blue;
+}
+.below-back > .forth {
+    height: 280px;
+    background: white;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    background: gray;
+}
