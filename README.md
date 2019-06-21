@@ -1,6 +1,5 @@
 
 # BUILDING WITH BACKGROUNDS AND GRADIENTS
-----
 
 This project is designed to look like the old version of [apple.com's home page](https://web.archive.org/web/20140301004610/http://www.apple.com/).For the purpose of practical demonstration. The project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/).
 
