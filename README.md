@@ -49,7 +49,6 @@ You can find the demo page [here](https://github.com/addod19/backgrounds-gradien
 6.  Create a new pull request
 
 ## License
-----
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE.md) file for details
 
