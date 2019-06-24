@@ -12,7 +12,7 @@
     height: 540px;
     display: flex;
     flex-direction: column;
-    background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 0 100%;
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -24,18 +24,13 @@
     max-width: 980px;
     height: 300px;
 }
-img:hover{
-    cursor: pointer;
-}
-#play {
-    font-size: 20px;
-}
+
 nav {
     width: 986px;
     height: 36px;
     margin: 0 auto;
     border-radius: 3px;
-    background-image: linear-gradient(#888,#333,#666); 
+    background-image: linear-gradient(#888,#333,#666);
     opacity: 0.9;
     border: 0;
     position: absolute;
@@ -50,14 +45,14 @@ nav > ul > li:hover {
 ul{
     list-style-type: none;
 }
-li >a {
+li > a {
     text-decoration: none;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px black;
     font-size: 12px;
 }
-li >a:hover{
+li > a:hover{
     text-decoration: none;
     border: 1px solid #666;
 }
@@ -114,19 +109,41 @@ header{
     float: left;
 }
 .large-font {
-    font-size: 50px;
-    color: white;
+    background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_large.png);
+    width: 980px;
+    height: 104px;
 }
-.large-font2 {
-    font-size: 40px;
-    color: white;
+.medium-font {
+    background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_small.png);
+    width: 980px;
+    height: 82px;
 }
-.subtitle-a {
-    font-size: 34px;
-    color: white;
+.small {
+    background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png) no-repeat;
+    width: 980px;
+    height: 64px;
 }
-.subtitle-a:hover{
-    border-bottom: 1px solid silver;
+
+#first-col {
+    background: url('../images/for-think.png');
+    width: 331px;
+    margin-right: 5px;
+}
+#second-col {
+    background: url('../images/colorful.png');
+    width: 330px;
+    margin-right: 5px;
+}
+#third-col {
+    background: url('../images/be-day.png');
+    width: 331px;
+    margin-right: 5px;
+}
+#forth-col {
+    background: url('../images/s-respon.png');
+    width: 331px;
+    margin-right: 0;
+    margin-left: 0;
 }
 .col-8{
     max-width: 100%;
@@ -142,6 +159,7 @@ header{
     max-width: 25%;
     height: 200px;
     border: 1px solid white;
+    color: black;
 }
 .col- > img{
     max-width: 100%;
